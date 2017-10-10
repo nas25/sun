@@ -1,0 +1,98 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+html {height: 100%}
+body {
+   width: 100%;
+   height: 100%;
+   background-color: #7db4b5;
+   color: #f6fafa;
+   font-family: "Segoe UI", Arial, sans-serif;
+   font-size: 1em;
+   line-height: 135%;
+   float: left;
+}
+a {
+	color: #e0eff1;
+	text-decoration: none;
+	}
+a: hower {
+	color: #680148;
+
+}
+a, a: hower {
+	-webkit-transition: all.6s ease;
+     -moz-transition: all.6s ease;
+     -o-transition: all.6s ease;
+     transition: all.6s ease;	
+}
+.clear {
+	clear: both;
+}
+/* стили для шаапки */
+header {
+width: 98%;
+float: left;
+padding: 1%;
+background-color: #1f6f70;
+border-bottom: 2px, solid silver;
+}
+header #logo {
+	width: 40%;
+	float: left;
+	}
+header #logo a {
+	color: #ffffff;
+    font-size: 2em;
+    font-family: Times New Roman, sans-serif;
+}
+header #logo span {
+	color: #680148;
+
+}
+
+header #regAuth {
+	width: 30%;
+	float: left;
+	text-align: right;
+	font-size: 1.2em;
+}
+/* стили для меню*/
+#menu  {
+	height: 85%;
+	width: 20%;
+	background-color:#1f6f70;
+	font-size: 1.2em;
+	float: left;
+	margin-top: 10px;
+}
+#glav {
+	height: 85%; 
+	width: 75%;
+	float: right;
+	margin-top: 10px;
+		background-color:#1f6f70;
+}
+footer {
+	width: 98%;
+	float: left;
+	padding: 1%; 
+	background-color: #1f6f70;
+	border-top: 2px  solid silver;
+	margin-top: 10px;
+}/* стили для футера*/
+
+footer #social {
+	float: left;
+    width: 50%;
+}
+
+footer #rights {
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size: 1.1em;
+}
